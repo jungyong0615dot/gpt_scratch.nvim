@@ -1,7 +1,7 @@
 local M = {}
 
 local Job = require "plenary.job"
-local curl = require "plenary.curl"
+local curl = require "custom_curl"
 local Path = require "plenary.path"
 local async = require "plenary.async"
 local actions = require "telescope.actions"
