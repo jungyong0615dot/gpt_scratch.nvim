@@ -211,7 +211,7 @@ M.complete = function(bufnr)
 
       vim.api.nvim_buf_set_lines(bufnr, #buf_contents + 1, -1, false, vim.split(resp_text, "\n"))
     end),
-  })
+  }):start()
 end
 
 return M
